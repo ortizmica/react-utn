@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;900&display=swap');
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background-color: #344D67;
+    padding: 30px;
+}
+.navbar{
+    background-color: #344D67;
+    padding: 30px;
+}
+#characters{
+    background-color: #6ECCAF;
+    color: #344D67;
+}
+#contact{
+    color: #6ECCAF;
+    background-color: #344D67;
+}
+#contact:hover{
+    background-color: #6ECCAF;
+    color: #344D67;
+}
+.color{
+    color: #6ECCAF;
+}

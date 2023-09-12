@@ -1,0 +1,11 @@
+.card{
+    width: 18rem;
+    background-color: #223142;
+}
+.card-title{
+    color: #344D67;
+}
+.btn{
+    background-color: #6ECCAF;
+    color: #344D67;
+}
