@@ -1,9 +1,11 @@
 .card{
-    width: 18rem;
+    width: 100%;
     background-color: #223142;
+    box-sizing: border-box;
+    padding: 10px;
 }
 .card-title{
-    color: #344D67;
+    color: #6ECCAF;
 }
 .btn{
     background-color: #6ECCAF;

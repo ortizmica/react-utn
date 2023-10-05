@@ -1,0 +1,18 @@
+.infocard{
+    background-color: #223142;
+}
+.close{
+    background-color: #6ECCAF;
+    width: 35px;
+}
+.color-ul{
+    background-color: #223142;
+    border: #344D67;
+}
+h4, p{
+    color: white;
+}
+.list-group-item:hover{
+    background-color: #6ECCAF;
+    color: #223142;
+}
