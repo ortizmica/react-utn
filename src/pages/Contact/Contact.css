@@ -1,0 +1,12 @@
+section{
+    background-color: rgba(92,117,146,.9);
+}
+
+h2, h3, label{
+    color:#223142;
+}
+
+.btn{
+    background-color: #344d67;
+    color: white;
+}

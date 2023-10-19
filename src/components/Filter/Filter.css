@@ -6,3 +6,9 @@
 .form-check-input{
     background-color: #b1f0dc;
 }
+.form-check-input:checked{
+    background-color: #344d67;
+}
+form-check-label{
+    color: #6eccaf;
+}

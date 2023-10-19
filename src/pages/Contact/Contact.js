@@ -1,14 +1,15 @@
 import Nav from '../../components/Nav/Nav'
 import { Fragment } from 'react';
+import "./Contact.css"
 
 export default function Contact() {
     return(
         <Fragment>
             <Nav itemMenu={"Contact"}/>
             <main className='w-100 vh-100 d-flex align-items-center justify-content-center'>
-            <section className='bg-primary w-75 m-5 p-5'>
+            <section className='w-75 m-5 p-5'>
                 <h2>Contact</h2>
-                <h3>Leave us your information so we can contact you Name </h3>
+                <h3>Leave us your information so we can contact you</h3>
                 <form className="row g-3" action='' method='post'>
                     <div className="col-md-6">
                         <label htmlFor="inputEmail4" className="form-label">Name</label>
@@ -25,7 +26,7 @@ export default function Contact() {
                 </div>
     
                     <div className="col-12">
-                        <input type="submit" className="btn btn-danger" value="Send"/>
+                        <input type="submit" className="btn" value="Send"/>
                     </div>
                 </form> 
             </section>           

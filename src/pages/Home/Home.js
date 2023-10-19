@@ -1,18 +1,19 @@
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 function Home(){
     return(
         <div id="home">
             <main id="cuadro">
-                <h1>Proyect Rick & Morty</h1>
-                <h2>Helcome to Rick & Morty Proyect!</h2>
-                <p>This proyect was made for practising React and to made a functional website</p>
-                <p>In this website you can know information of the characters of this animated series.</p>
-                <p>Also you can filter for diferent types of properties to find the character that you are looking for or send us a massage for any concern o sugestion</p>
-                <h3>Lets go!</h3>
+                <h1 className="texto-color">Proyect Rick & Morty</h1>
+                <h2 className="texto-color">Helcome to Rick & Morty Proyect!</h2>
+                <p className="texto-color">This proyect was made for practising React and to made a functional website</p>
+                <p className="texto-color">In this website you can know information of the characters of this animated series.</p>
+                <p className="texto-color">Also you can filter for diferent types of properties to find the character that you are looking for or send us a massage for any concern o sugestion</p>
+                <h3 className="texto-color">Lets go!</h3>
                 <div id="botones">
-                    <button className="btn">Characters</button>
-                    <button className="btn">Contact</button>
+                    <Link to="/characters" className="btn">Characters</Link>
+                    <Link to="/contact" className="btn">Contact</Link>
                 </div>
             </main>
         </div>
